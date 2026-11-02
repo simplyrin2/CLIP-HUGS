@@ -1,0 +1,21 @@
+name: ml_hugs
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit
+  - plyfile
+  - python
+  - pip
+  - pytorch
+  - torchaudio
+  - torchvision
+  - tqdm
+  - numpy<2
+  - pip:
+    - submodules/diff-gaussian-rasterization
+    - submodules/simple-knn
+    - submodules/fused-ssim
+    - opencv-python
+    - joblib

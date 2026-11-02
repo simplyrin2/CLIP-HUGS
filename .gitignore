@@ -1,1 +1,20 @@
+<<<<<<< HEAD
 
+=======
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+output/
+outputs/
+output_style/
+output_style_transfer/
+scene_style_output/
+checkpoints/
+renders/
+*.pth
+*.pt
+*.ckpt
+*.log
+.DS_Store
+>>>>>>> e2e2f28 (First commit)

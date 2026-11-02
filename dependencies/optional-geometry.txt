@@ -1,0 +1,3 @@
+# Optional geometry dependency used by some Neuman ray/mesh utilities.
+# Prefer a conda-forge build when a compatible wheel is unavailable.
+libigl
