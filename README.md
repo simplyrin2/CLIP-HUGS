@@ -190,28 +190,34 @@ included in this repository. Supply them through local paths when running an
 experiment. The repository `.gitignore` excludes common generated artifacts
 and model files.
 
-## Acknowledgements
-
-This project builds on:
-
-- [ML-HUGS](https://github.com/apple/ml-hugs) for human-scene Gaussian
-  representations and rendering.
-- [CLIPGaussian](https://github.com/kornelhowil/CLIPGaussian) for
-  CLIP-guided Gaussian-splatting style transfer.
-- [OpenAI CLIP](https://github.com/openai/CLIP) for image-text embeddings.
-
-Please follow the licenses and citation requirements of each upstream
-project. The curated files in this repository retain their upstream
-copyright and license notices where applicable.
-
 ## Citation
 
-If you use this integration in academic work, please cite the upstream
-projects and the CLIPGaussian paper. Add the final CLIP-HUGS citation here
-once this integration has a citable publication or project record.
+This project builds on [ML-HUGS](https://github.com/apple/ml-hugs) and
+[CLIPGaussian](https://github.com/kornelhowil/CLIPGaussian). Please cite:
 
-## Status
+### ML-HUGS / HUGS
 
-This repository is an experimental integration and may require small path or
-dependency adjustments for a particular ML-HUGS checkout, CUDA version, or
-dataset configuration.
+```bibtex
+@article{kocabas2023hugs,
+  title={HUGS: Human Gaussian Splats},
+  author={Kocabas, Muhammed and Chang, Jen-Hao Rick and Gabriel, James
+    and Tuzel, Oncel and Ranjan, Anurag},
+  journal={arXiv preprint arXiv:2311.17910},
+  year={2023},
+  url={https://arxiv.org/abs/2311.17910}
+}
+```
+
+### CLIPGaussian
+
+```bibtex
+@article{howil2025clipgaussian,
+  title={CLIPGaussian: Universal and Multimodal Style Transfer Based on
+    Gaussian Splatting},
+  author={Howil, Kornel and Waczyńska, Joanna and Borycki, Piotr
+    and Dziarmaga, Tadeusz and Mazur, Marcin and Spurek, Przemysław},
+  journal={arXiv preprint arXiv:2505.22854},
+  year={2025},
+  url={https://arxiv.org/abs/2505.22854}
+}
+```
